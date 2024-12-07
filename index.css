@@ -1,0 +1,42 @@
+:root {
+  --main-color: #7671FA;
+  --sub-color: #07244C;
+  --bg-color: #E5EAF3;
+  --border-color: #7E7F9C;
+  --font-sz: 10px;
+  --font-smz: 12px;
+  --font-mz: 14px;
+  --font-mlz: 16px;
+  --font-lz: 18px;
+  --font-xlz: 20px;
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  background-color: var(--bg-color);
+}
