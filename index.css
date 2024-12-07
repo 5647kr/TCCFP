@@ -45,7 +45,7 @@ body {
 main .wrap {
   width: 100%;
   height: calc(100vh - 80px);
-  box-shadow: inset 0 0 10px red;
+  /* box-shadow: inset 0 0 10px red; */
   padding: 40px 20px;
 }
 
@@ -94,7 +94,7 @@ footer ul li.active i {
 @media screen and (min-width: 481px) and (max-width: 768px) {
   main .wrap {
     height: calc(100vh - 100px);
-    box-shadow: inset 0 0 10px orange;
+    /* box-shadow: inset 0 0 10px orange; */
     padding: 60px 40px;
   }
 
@@ -111,7 +111,7 @@ footer ul li.active i {
 @media screen and (min-width: 769px) {
   main .wrap {
     height: calc(100vh - 100px);
-    box-shadow: inset 0 0 10px green;
+    /* box-shadow: inset 0 0 10px green; */
     padding: 80px 60px;
   }
 
