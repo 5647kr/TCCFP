@@ -42,6 +42,9 @@ body {
 }
 
 /* wrap 설정 */
+main {
+  margin-bottom: 80px;
+}
 
 main .wrap {
   width: 100%;
@@ -99,12 +102,16 @@ footer ul li.active i {
 /* 반응형 처리 */
 /* 모바일 가로 ~ 태블릿 세로 (481px ~ 768px) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  main {
+    margin-bottom: 100px;
+  }
+
   main .wrap {
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
     padding: 60px 40px;
   }
 
-  footer .wrap {
+  footer {
     height: 100px;
   }
 
@@ -115,12 +122,16 @@ footer ul li.active i {
 
 /* 태블릿 가로 ~ 그 이상 (769px ~ ) */
 @media screen and (min-width: 769px) {
+  main {
+    margin-bottom: 100px;
+  }
+  
   main .wrap {
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
     padding: 80px 60px;
   }
 
-  footer .wrap {
+  footer {
     height: 100px;
   }
 
