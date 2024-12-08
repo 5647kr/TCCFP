@@ -37,6 +37,11 @@ ul, li {
   list-style: none;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+}
+
 body {
   background-color: var(--bg-color);
 }
