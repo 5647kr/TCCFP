@@ -15,22 +15,41 @@
         <form>
           <h1>TCCFP</h1>
 
-          <label for="name">이름</label>
-          <input type="text" id="name">
+          <ul>
+            <li>
+              <div>
+                <label for="name">이름</label>
+                <input type="text" id="name">
+                <strong class="error">이름: 필수 정보입니다.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="birth">생년월일</label>
+                <input type="text" id="birth">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="id">아이디</label>
+                <input type="text" id="id">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="pw">비밀번호</label>
+                <input type="text" id="pw">
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="checkPw">비밀번호 확인</label>
+                <input type="password" id="checkPw">
+              </div>
+            </li>
+          </ul>
 
-          <label for="birth">생년월일</label>
-          <input type="date" id="birth">
-
-          <label for="id">아이디</label>
-          <input type="text" id="id">
-
-          <label for="pw">비밀번호</label>
-          <input type="text" id="pw">
-
-          <label for="checkPw">비밀번호 확인</label>
-          <input type="password" id="checkPw">
-
-          <button type="submit">회원가입</button>
+          <button type="button">회원가입</button>
         </form>
       </div>
       <div class="linkWrap">

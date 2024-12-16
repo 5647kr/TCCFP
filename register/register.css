@@ -19,12 +19,15 @@ main .loginWrap {
   text-align: center;
 }
 
+.loginWrap ul li ~ li {
+  margin-top: 20px;
+}
+
 .loginWrap label {
   display: block;
   font-size: var(--font-mlz);
   font-weight: bold;
   color: var(--main-color);
-  margin-top: 20px;
 }
 
 .loginWrap input {
@@ -38,6 +41,11 @@ main .loginWrap {
 
 .loginWrap input:focus {
   outline: none;
+}
+
+.loginWrap .error {
+  font-size: var(--font-smz);
+  color: var(--error-color);
 }
 
 .loginWrap button {
@@ -87,6 +95,10 @@ main .loginWrap {
     font-size: var(--font-lz);
   }
   
+  .loginWrap .error {
+    font-size: var(--font-mz);
+  }
+  
   
   .loginWrap button {
     margin-top: 60px;
@@ -124,6 +136,9 @@ main .loginWrap {
     font-size: var(--font-xlz);
   }
   
+  .loginWrap .error {
+    font-size: var(--font-mlz);
+  }
   
   .loginWrap button {
     margin-top: 80px;
