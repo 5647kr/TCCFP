@@ -42,8 +42,14 @@ ul, li {
 }
 
 button {
-  background-color: transparent;
+  background-color: var(--border-color);
   border: none;
+  color: var(--bg-color);
+}
+
+button.active {
+  background-color: var(--main-color);
+  color: #ffffff;
 }
 
 /* 모바일 세로 / ~ 480px / 10, 12, 14, 16 */
