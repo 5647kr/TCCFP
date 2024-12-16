@@ -1,0 +1,140 @@
+/* 모바일 세로 / ~ 480px / 10, 12, 14, 16 */
+
+main .loginWrap {
+  padding: 20px;
+  background-color: var(--main-color);
+  border-radius: 30px;
+  margin-top: 60px;
+}
+
+.loginWrap form {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.loginWrap h1 {
+  font-size: var(--font-xlz);
+  color: var(--main-color);
+  text-align: center;
+}
+
+.loginWrap label {
+  display: block;
+  font-size: var(--font-mlz);
+  font-weight: bold;
+  color: var(--main-color);
+  margin-top: 20px;
+}
+
+.loginWrap input {
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  border: none;
+  font-size: var(--font-mlz);
+}
+
+.loginWrap input:focus {
+  outline: none;
+}
+
+.loginWrap button {
+  margin-top: 40px;
+  background-color: var(--main-color);
+  font-size: var(--font-mlz);
+  font-weight: bold;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.linkWrap {
+  margin-top: 8px;
+}
+
+.linkWrap ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.linkWrap a {
+  color: var(--sub-color);
+}
+
+
+/* 모바일 가로 ~ 태블릿 세로 / 481px ~ 768px / 12, 14, 16, 18 */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main .loginWrap {
+    padding: 40px;
+    margin-top: 40px;
+  }
+  
+  .loginWrap form {
+    padding: 40px;
+  }
+  
+  .loginWrap label {
+    font-size: var(--font-lz);
+    margin-top: 40px;
+  }
+
+  .loginWrap input {
+    font-size: var(--font-lz);
+  }
+  
+  
+  .loginWrap button {
+    margin-top: 60px;
+    font-size: var(--font-lz);
+  }
+  
+  .linkWrap {
+    margin-top: 8px;
+  }
+  
+  .linkWrap ul {
+    padding: 0 60px;
+  }
+}
+
+
+/* 태블릿 세로 ~ / 769px ~ / 14, 16, 18, 20 */
+
+@media screen and (min-width: 769px) {
+  main .loginWrap {
+    padding: 60px;
+    margin-top: 60px;
+  }
+  
+  .loginWrap form {
+    padding: 60px;
+  }
+  
+  .loginWrap label {
+    font-size: var(--font-xlz);
+    margin-top: 60px;
+  }
+
+  .loginWrap input {
+    font-size: var(--font-xlz);
+  }
+  
+  
+  .loginWrap button {
+    margin-top: 80px;
+    font-size: var(--font-xlz);
+  }
+  
+  .linkWrap {
+    margin-top: 8px;
+  }
+  
+  .linkWrap ul {
+    padding: 0 80px;
+  }
+}
