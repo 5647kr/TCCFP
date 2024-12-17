@@ -17,34 +17,38 @@
 
           <ul>
             <li>
-              <div>
+              <div class="nameWrap">
                 <label for="name">이름</label>
                 <input type="text" id="name">
-                <strong class="error">이름: 필수 정보입니다.</strong>
               </div>
             </li>
             <li>
-              <div>
+              <div class="birthWrap">
                 <label for="birth">생년월일</label>
-                <input type="text" id="birth">
+                <input type="text" id="birth" maxlength="8">
+                <strong class="error">생년월일: 8자리 숫자로 입력해 주세요.</strong>
               </div>
             </li>
             <li>
-              <div>
+              <div class="idWrap">
                 <label for="id">아이디</label>
-                <input type="text" id="id">
+                <input type="text" id="id" maxlength="15">
+                <strong class="error">아이디: 5 ~ 15자리 영문, 숫자만 입력가능합니다.</strong>
+                <strong class="error a11y-hidden">아이디: 사용할 수 없는 아이디입니다.</strong>
               </div>
             </li>
             <li>
-              <div>
-                <label for="pw">비밀번호</label>
-                <input type="text" id="pw">
+              <div class="setPwWrap">
+                <label for="setPw">비밀번호</label>
+                <input type="password" id="setPw">
+                <strong class="error valideError a11y-hidden">비밀번호: 5 ~ 15자리 영문, 숫자만 입력가능합니다.</strong>
               </div>
             </li>
             <li>
-              <div>
+              <div class="checkPwWrap">
                 <label for="checkPw">비밀번호 확인</label>
                 <input type="password" id="checkPw">
+                <strong class="error matchError a11y-hidden">비밀번호 확인: 비밀번호가 일치하지 않습니다.</strong>
               </div>
             </li>
           </ul>
@@ -65,5 +69,7 @@
     </div>
   </main>
   <footer class="a11y-hidden"></footer>
+
+  <script src="register.js"></script>
 </body>
 </html>
